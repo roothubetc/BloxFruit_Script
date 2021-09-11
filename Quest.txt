@@ -331,7 +331,7 @@ function CheckQuest()
 
      if sea3world then
 
-          if MyLevel >= 1500 and MyLevel <= 1524 then
+           if MyLevel == 1500 or MyLevel <= 1524 then
             mob = "Pirate Millionaire [Lv. 1500]"
             NaemQuest = "PiratePortQuest"
             LevelQuest = 1
@@ -339,7 +339,7 @@ function CheckQuest()
             CFrameQuest = CFrame.new(-290.522095, 43.8190117, 5579.83252, -0.905972421, 1.20471855e-08, 0.423336715, 1.73612058e-08, 1, 8.69659544e-09, -0.423336715, 1.52285118e-08, -0.905972421)
             CFrameMon = CFrame.new(-426.075745, 175.557526, 5558.04736, 0.948741317, -2.96795455e-09, -0.316053629, 3.95163724e-09, 1, 2.47150167e-09, 0.316053629, -3.59374508e-09, 0.948741317)
           
-          elseif MyLevel >= 1525 and MyLevel <= 1549 then
+           elseif MyLevel == 1525 or MyLevel <= 1574 then
             mob = "Pistol Billionaire [Lv. 1525]"
             NaemQuest = "PiratePortQuest"
             LevelQuest = 2
@@ -347,20 +347,110 @@ function CheckQuest()
             CFrameQuest = CFrame.new(-290.522095, 43.8190117, 5579.83252, -0.905972421, 1.20471855e-08, 0.423336715, 1.73612058e-08, 1, 8.69659544e-09, -0.423336715, 1.52285118e-08, -0.905972421)
             CFrameMon = CFrame.new(-239.456604, 209.362762, 6016.10547, -0.249005213, -2.96367553e-09, 0.968502164, -4.03442657e-09, 1, 2.02279615e-09, -0.968502164, -3.40366402e-09, -0.249005213)
 
+           elseif MyLevel == 1575 or MyLevel <= 1599 then
+               mob = "Dragon Crew Warrior [Lv. 1575]"
+               NaemQuest = "AmazonQuest"
+               LevelQuest = 1
+               NameMon = "Dragon Crew Warriors"
+               CFrameQuest = CFrame.new(5829.56689, 51.3771553, -1100.4342, -0.555404484, 3.56743008e-08, 0.831580341, -1.3416549e-09, 1, -4.3795481e-08, -0.831580341, -2.54399009e-08, -0.555404484)
+               CFrameMon = CFrame.new(5822.10205, 72.3297882, -1065.89282, 0.254177988, -5.86954618e-09, 0.967157483, 2.68489302e-08, 1, -9.87285809e-10, -0.967157483, 2.6218089e-08, 0.254177988)
+           
+           elseif MyLevel == 1600 or MyLevel <= 1624 then
+               mob = "Dragon Crew Archer [Lv. 1600]"
+               NaemQuest = "AmazonQuest"
+               LevelQuest = 2
+               NameMon = "Dragon Crew Archers"
+               CFrameQuest = CFrame.new(5829.56689, 51.3771553, -1100.4342, -0.555404484, 3.56743008e-08, 0.831580341, -1.3416549e-09, 1, -4.3795481e-08, -0.831580341, -2.54399009e-08, -0.555404484)
+               CFrameMon = CFrame.new(6388.40039, 378.340515, -66.2102432, -0.975068867, 5.30273603e-08, 0.221902519, 4.31936371e-08, 1, -4.91683956e-08, -0.221902519, -3.83577934e-08, -0.975068867)
 
-         elseif MyLevel >= 1550 and MyLevel <= 1574 then
-            mob = "Pistol Billionaire [Lv. 1525]"
-            NaemQuest = "PiratePortQuest"
-            LevelQuest = 3
-            NameMon = "Pistol Billionaires"
-            CFrameQuest = CFrame.new(-290.522095, 43.8190117, 5579.83252, -0.905972421, 1.20471855e-08, 0.423336715, 1.73612058e-08, 1, 8.69659544e-09, -0.423336715, 1.52285118e-08, -0.905972421)
-            CFrameMon = CFrame.new(-239.456604, 209.362762, 6016.10547, -0.249005213, -2.96367553e-09, 0.968502164, -4.03442657e-09, 1, 2.02279615e-09, -0.968502164, -3.40366402e-09, -0.249005213)
+           elseif MyLevel == 1625 or MyLevel <= 1649 then
+               mob = "Female Islander [Lv. 1625]"
+               NaemQuest = "AmazonQuest2"
+               LevelQuest = 1
+               NameMon = "Female Islanders"
+               CFrameQuest = CFrame.new(5448.25195, 603.015747, 749.316284, -0.540603459, 9.97177807e-08, -0.84127754, -2.56367318e-08, 1, 1.35005493e-07, 0.84127754, 9.45520426e-08, -0.540603459)
+               CFrameMon = CFrame.new(4651.17969, 791.480164, 772.243469, -0.510961533, -7.70666091e-08, 0.859603584, -5.93328906e-08, 1, 5.43852856e-08, -0.859603584, -2.32139765e-08, -0.510961533)
+
+           elseif MyLevel == 1650 or MyLevel <= 1699 then
+               mob = "Giant Islander [Lv. 1650]"
+               NaemQuest = "AmazonQuest2"
+               LevelQuest = 2
+               NameMon = "Giant Islanders"
+               CFrameQuest = CFrame.new(5448.25195, 603.015747, 749.316284, -0.540603459, 9.97177807e-08, -0.84127754, -2.56367318e-08, 1, 1.35005493e-07, 0.84127754, 9.45520426e-08, -0.540603459)
+               CFrameMon = CFrame.new(4836.08984, 687.534302, -285.47345, -0.99725467, -3.42113644e-08, -0.0740480572, -3.22275788e-08, 1, -2.79853474e-08, 0.0740480572, -2.55221284e-08, -0.99725467)
+
+           elseif MyLevel == 1700 or MyLevel <= 1724 then
+               mob = "Marine Commodore [Lv. 1700]"
+               NaemQuest = "MarineTreeIsland"
+               LevelQuest = 1
+               NameMon = "Marine Commodores"
+               CFrameQuest = CFrame.new(2177.75317, 28.7312393, -6739.44824, 0.119195633, -3.65753605e-09, -0.992870808, 2.10418127e-09, 1, -3.43118867e-09, 0.992870808, -1.68019754e-09, 0.119195633)
+               CFrameMon = CFrame.new(2518.22583, 348.808716, -7482.78027, -0.491693884, -3.72061351e-08, -0.87076813, 1.30655939e-08, 1, -5.01056547e-08, 0.87076813, -3.60137484e-08, -0.491693884)
+
+
+           elseif MyLevel == 1725 or MyLevel <= 1774 then
+               mob = "Marine Rear Admiral [Lv. 1725]"
+               NaemQuest = "MarineTreeIsland"
+               LevelQuest = 2
+               NameMon = "Marine Rear Admirals"
+               CFrameQuest = CFrame.new(2177.75317, 28.7312393, -6739.44824, 0.119195633, -3.65753605e-09, -0.992870808, 2.10418127e-09, 1, -3.43118867e-09, 0.992870808, -1.68019754e-09, 0.119195633)
+               CFrameMon = CFrame.new(3282.57275, 402.847198, -7132.50635, 0.234403104, -8.57207212e-08, 0.972139478, -2.68664424e-09, 1, 8.8825189e-08, -0.972139478, -2.3432694e-08, 0.234403104)
+
+           elseif MyLevel == 1775 or MyLevel <= 1799 then
+               mob = "Fishman Raider [Lv. 1775]"
+               NaemQuest = "DeepForestIsland3"
+               LevelQuest = 1
+               NameMon = "Fishman Raiders"
+               CFrameQuest = CFrame.new(-10584.6865, 331.788452, -8759.07031, 0.892230332, -7.94446393e-08, 0.451580614, 6.76428513e-08, 1, 4.22773603e-08, -0.451580614, -7.17494375e-09, 0.892230332)
+               CFrameMon = CFrame.new(-10451.1406, 381.945831, -8033.27197, 0.985533893, -3.69765196e-08, -0.169478446, 3.9883119e-08, 1, 1.37459812e-08, 0.169478446, -2.03064605e-08, 0.985533893)
+
+           elseif MyLevel == 1800 or MyLevel <= 1824 then
+               mob = "Fishman Captain [Lv. 1800]"
+               NaemQuest = "DeepForestIsland3"
+               LevelQuest = 2
+               NameMon = "Fishman Captains"
+               CFrameQuest = CFrame.new(-10584.6865, 331.788452, -8759.07031, 0.892230332, -7.94446393e-08, 0.451580614, 6.76428513e-08, 1, 4.22773603e-08, -0.451580614, -7.17494375e-09, 0.892230332)
+               CFrameMon = CFrame.new(-11133.4561, 384.21994, -9053.17676, -0.319107234, -2.85116624e-08, 0.94771862, -7.02769327e-08, 1, 6.42151043e-09, -0.94771862, -6.45536034e-08, -0.319107234)
+
+           elseif MyLevel == 1825 or MyLevel <= 1849 then
+               mob = "Forest Pirate [Lv. 1825]"
+               NaemQuest = "DeepForestIsland"
+               LevelQuest = 1
+               NameMon = "Forest Pirates"
+               CFrameQuest = CFrame.new(-13233.0879, 332.403961, -7629.69922, -0.997619152, 0, 0.0689643472, 0, 1, 0, -0.0689643472, 0, -0.997619152)
+               CFrameMon = CFrame.new(-13462.9004, 413.624542, -7795.61084, 0.75422281, -7.45468753e-08, -0.656618595, 5.57408768e-08, 1, -4.9504898e-08, 0.656618595, 7.37228167e-10, 0.75422281)
+
+           elseif MyLevel == 1850 or MyLevel <= 1899 then
+               mob = "Mythological Pirate [Lv. 1850]"
+               NaemQuest = "DeepForestIsland"
+               LevelQuest = 2
+               NameMon = "Mythological Pirates"
+               CFrameQuest = CFrame.new(-13233.0879, 332.403961, -7629.69922, -0.997619152, 0, 0.0689643472, 0, 1, 0, -0.0689643472, 0, -0.997619152)
+               CFrameMon = CFrame.new(-13506.875, 581.542053, -6985.59766, 0.582779169, -8.03262665e-08, 0.812630594, 5.5946618e-08, 1, 5.87250142e-08, -0.812630594, 1.12402185e-08, 0.582779169)
+
+           elseif MyLevel == 1900 or MyLevel <= 1924 then
+               mob = "Jungle Pirate [Lv. 1900]"
+               NaemQuest = "DeepForestIsland2"
+               LevelQuest = 1
+               NameMon = "Jungle Pirates"
+               CFrameQuest = CFrame.new(-12682.2275, 390.886566, -9901.95215, 0.902961195, -4.32517382e-08, -0.42972213, 2.69718825e-08, 1, -4.39753371e-08, 0.42972213, 2.81176096e-08, 0.902961195)
+               CFrameMon = CFrame.new(-12182.6045, 470.873779, -10648.543, 0.566890478, 7.81338798e-08, 0.823793173, -3.75118674e-08, 1, -6.90328079e-08, -0.823793173, 8.23202218e-09, 0.566890478)
+
+           elseif MyLevel == 1925 or MyLevel <= 2000 then
+               mob = "Musketeer Pirate [Lv. 1925]"
+               NaemQuest = "DeepForestIsland2"
+               LevelQuest = 2
+               NameMon = "Musketeer Pirates"
+               CFrameQuest = CFrame.new(-12682.2275, 390.886566, -9901.95215, 0.902961195, -4.32517382e-08, -0.42972213, 2.69718825e-08, 1, -4.39753371e-08, 0.42972213, 2.81176096e-08, 0.902961195)
+               CFrameMon = CFrame.new(-13252.0537, 502.08493, -9530.57031, -0.558312893, 7.61124852e-08, -0.829630435, 2.17462297e-08, 1, 7.71081687e-08, 0.829630435, 2.50091503e-08, -0.558312893)
+
+
 
 
          end
 
       end
 end
--- Script generated by SimpleSpy - credits to exx#9394
+
 
 
