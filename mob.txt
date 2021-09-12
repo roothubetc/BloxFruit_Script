@@ -34,7 +34,7 @@ mobnewlist = {
         "Ship Engineer [Lv. 1275]",
         "Ship Officer [Lv. 1325]",
         "Arctic Warrior [Lv. 1350]",
-	"Snow Lurker [Lv. 1375]",
+	      "Snow Lurker [Lv. 1375]",
         "Sea Soldier [Lv. 1425]",
         "Water Fighter [Lv. 1450]"
     }
