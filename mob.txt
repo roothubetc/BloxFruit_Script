@@ -39,12 +39,13 @@ local mobnewlist = {
         "Water Fighter [Lv. 1450]"
     }
 
-    local mob3sea = {"Pirate Millionaire [Lv. 1500]", "Pistol Billionaire [Lv. 1525]", "Dragon Crew Warrior [Lv. 1575]", "Dragon Crew Archer [Lv. 1600]",
-                     "Female Islander [Lv. 1625]", "Giant Islander [Lv. 1650]", "Marine Commodore [Lv. 1700]",
-                     "Lab Subordinate [Lv. 1100]", "Horned Warrior [Lv. 1125]", "Magma Ninja [Lv. 1175]",
-                     "Marine Rear Admiral [Lv. 1725]", "Fishman Raider [Lv. 1775]", "Fishman Captain [Lv. 1800]",
-                     "Forest Pirate [Lv. 1825]", "Mythological Pirate [Lv. 1850]", "Jungle Pirate [Lv. 1900]",
-                     "Musketeer Pirate [Lv. 1925]"}   
+    local mob3sea = {"Pirate Millionaire [Lv. 1500]", "Pistol Billionaire [Lv. 1525]", 
+                    "Dragon Crew Warrior [Lv. 1575]", "Dragon Crew Archer [Lv. 1600]",
+                     "Female Islander [Lv. 1625]", "Giant Islander [Lv. 1650]", 
+                     "Marine Commodore [Lv. 1700]","Marine Rear Admiral [Lv. 1725]", 
+                     "Fishman Raider [Lv. 1775]", "Fishman Captain [Lv. 1800]",
+                     "Forest Pirate [Lv. 1825]","Mythological Pirate [Lv. 1850]", 
+                     "Jungle Pirate [Lv. 1900]", "Musketeer Pirate [Lv. 1925]"}   
 
   function CheckMob()
   if OldWorld then
@@ -156,7 +157,7 @@ local mobnewlist = {
         Telemon = CFrame.new(-12182.6045, 470.873779, -10648.543, 0.566890478, 7.81338798e-08, 0.823793173, -3.75118674e-08, 1, -6.90328079e-08, -0.823793173, 8.23202218e-09, 0.566890478)
      elseif SelectMob == mob3sea[14] then
         Telemon = CFrame.new(-13252.0537, 502.08493, -9530.57031, -0.558312893, 7.61124852e-08, -0.829630435, 2.17462297e-08, 1, 7.71081687e-08, 0.829630435, 2.50091503e-08, -0.558312893)
-
+                
       end
       end
 
