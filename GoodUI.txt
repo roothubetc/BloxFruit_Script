@@ -153,9 +153,11 @@ function Library:CreateWindow(Config, Parent)
 	function WindowInit:SetTileScale(Scale)
 		Holder.TileSize = UDim2.new(Scale,0,Scale,0)
 	end
-
-
-
+--[[
+	if game.CoreGui:FindFirstChild("RootHUB") then
+		game.CoreGui:FindFirstChild("RootHUB"):Destroy()
+	  end 
+]]
 	function WindowInit:CreateTab(Name)
 		local TabInit = {}
 		local Tab = Folder.Tab:Clone()
