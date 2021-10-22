@@ -1,7 +1,7 @@
 if game.CoreGui:FindFirstChild("FluxLib") then
     game.CoreGui:FindFirstChild("FluxLib"):Destroy()
 end
-local Flux = loadstring(game:HttpGet"https://raw.githubusercontent.com/Root-Hub-Dev/BloxFruit_Script/main/UiFree")()
+local Flux = loadstring(game:HttpGet"https://raw.githubusercontent.com/Root-Hub-Dev/BloxFruit_Script/main/UiFree.txt")()
 
 local win = Flux:Window("Mythic Hub", "King Piece",getgenv().Color, Enum.KeyCode.RightControl)
 local Main = win:Tab("Auto Farm", "")
