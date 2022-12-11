@@ -1,1 +1,1 @@
- game.Players.LocalPlayer:Kick("รับสคริปใหม่ และใช้สคริปใหม่รัน")
+ game.Players.LocalPlayer:Kick("รับสคริปใหม่ และใช้สคริปใหม่รัน ")
